@@ -64,4 +64,24 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+head {
+	display: inline-block;
+	color: gray;
+}
 
+.section1 {
+	text-align: center;
+	border-bottom: black;
+}
+
+.startImage {
+	border: black;
+}
+
+.section3 {
+	border-bottom: black;
+}
+
+footer {
+	text-align: center;
+}
