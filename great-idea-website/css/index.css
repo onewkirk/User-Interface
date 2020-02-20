@@ -64,24 +64,60 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-head {
-	display: inline-block;
+.top_nav {
+	background-color: green;
+}
+.top_nav a{
 	color: gray;
+	padding: 35px;
+	padding-left: 8%;
+	display: inline-block;
+}
+
+.top_nav .logo {
+	padding-left: 30px;
+}
+
+}
+p {
+	display: inline-block;
+	background-color: blueviolet;
+	width: 400px;
+	vertical-align: middle;
 }
 
 .section1 {
+	display: inline-block;
 	text-align: center;
-	border-bottom: black;
+	border-bottom: black 5px;
+	font-size: 75px;
+	padding-left: 20%;
 }
 
-.startImage {
+.section1, a {
+	margin: auto;
 	border: black;
+	color: black;
+}
+
+.middle-img {
+	padding-left: 400px;
+	display: inline-block;
 }
 
 .section3 {
 	border-bottom: black;
 }
 
+.contact, a{
+	color: black;
+	display: block;
+	font-family: 'Titillium Web', sans-serif;
+	border-color: black;
+	font-size: 18px;
+}
+
 footer {
+	padding: 60px;
 	text-align: center;
 }
