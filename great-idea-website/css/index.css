@@ -30,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin-left: 15%;
+	margin-right: 15%;
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +66,113 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.top_nav a{
+	color: gray;
+	padding: 35px;
+	padding-left: 5%;
+	display: inline-block;
+}
+
+.top_nav .logo {
+	padding-left: 30px;
+}
+
+p {
+	width: 400px;
+}
+
+.section1 {
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-size: 70px;
+	width: 375px;
+	height: 300px;
+	padding-top: 5px;
+	padding-left: 100px;
+}
+
+.topImage {
+	padding:30px;
+	padding-top: 100px;
+	height: 450px;
+	width: 400;
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.section1 h1 {
+	padding-top: 50px;
+	margin: 0px;
+	line-height: .45;
+}
+
+.section1 .on {
+	padding: 15px;;
+}
+
+.section1 .demand {
+	padding:12px;
+}
+
+.section1 a {
+	border-style: solid;
+	border-color: black;
+	color: black;
+	border-width: 2px;
+	display: inline;
+	padding: 7px;
+	margin-left: 20px;
+}
+
+.section2{
+	border: 3px solid white;
+	border-top: 3px solid black;
+	margin-top: 2%;
+	height: 15%;
+}
+
+.section2 div {
+	display: inline-block;
+}
+
+.features {
+	margin-right: 25px;
+}
+
+.middle-img {
+	width: 60%;
+	display: block;
+	margin-left: 200px;
+}
+
+.section3 {
+	border-bottom: 2px solid black;
+	height: 200px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.section3 div {
+	display: inline-block;
+	height: 175px;
+}
+
+.product{
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+.contact, a{
+	color: black;
+	display: block;
+	font-family: 'Titillium Web', sans-serif;
+	border-color: black;
+	font-size: 18px;
+}
+
+footer {
+	padding: 60px;
+	text-align: center;
+}
