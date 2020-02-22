@@ -92,8 +92,6 @@ h2 {
 
 .section1 {
 	display: inline-block;
-	margin-left: 0%;
-	width: 15%;
 	font-size: 500%;
 	padding-right: 5%;
 }
@@ -106,12 +104,9 @@ h2 {
 
 .section0 div {
 	display: inline-block;
-	width: 37%
+	width: 45%
 }
 
-.topImage {
-	display: inline-block;
-}
 
 .section1 h1 {
 	padding: 1%;
@@ -162,6 +157,7 @@ h2 {
 	display: block;
 	margin-left: 25%;
 	margin-right: 25%;
+	padding-top: 3%;
 }
 
 .section3 {
